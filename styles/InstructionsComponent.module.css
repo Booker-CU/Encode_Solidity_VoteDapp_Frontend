@@ -53,27 +53,35 @@ border-radius: 8px;
 	width: 100%;
 	align-content: center;
 	flex-wrap: wrap;
+
 	gap: 1rem;
 }
 
 .button{
 	display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: aliceblue;
+	font-weight: 600;
 
-padding: 24px 32px;
-gap: 12px;
+	padding: 24px 32px ;
+	padding-bottom: 5px;
+	gap: 12px;
 
-width: 392px;
-height: 76px;
+	width: 375px;
+	height: 76px;
 
-background: rgba(0, 0, 0, 0.8);
-/* Grayscale/Metal */
+	background: rgba(10, 32, 236, 0.926);
+	/* Grayscale/Metal */
 
-border: 1px solid #4E4E4E;
-border-radius: 12px;
-cursor: pointer;
+	border: 1px solid #4E4E4E;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.button_spacing{
+	padding-bottom: 10px
 }
 
 .button p {
@@ -93,4 +101,9 @@ line-height: 28px;
 	display: flex;
 	gap: 2rem;
 	margin-bottom: .5rem;
+}
+
+.button_textTx_wrap {
+	width: 375px;
+	text-overflow: clip;
 }
