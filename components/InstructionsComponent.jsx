@@ -71,7 +71,7 @@ function WalletInfo() {
 			<RequestTokens/>
 			<DelegateTokens/>
 			<Vote/>
-			{/* <WinningProposal/> */}
+			
 
 		</div>
 	)
@@ -196,12 +196,6 @@ function Vote() {
 	)
 }
 
-/* function WinningProposal() {
-
-	const winner =  tokenizedBallot.winnerName()
-
-	return <div>The winner is {winner.name}</div>
-} */
 
 
 
